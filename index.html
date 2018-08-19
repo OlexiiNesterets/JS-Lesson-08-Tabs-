@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page">
+    <div class="game">
+        <div class="tabs">
+            <div class="information__tab tabs__item checked" id="information__tab">
+                <div class="icon icon__information"></div>
+                <h2>INFORMATION</h2>
+            </div>
+            <div class="ratings__tab tabs__item" id="ratings__tab">
+                <div class="icon icon__ratings"></div>
+                <h2>RATINGS INFO</h2>
+            </div>
+            <div class="buy__tab tabs__item" id="buy__tab">
+                <div class="icon icon__buy"></div>
+                <h2>WHERE TO BUY</h2>
+            </div>
+        </div>
+        <div class="information__window window">
+            <img class="cover__img" src="img/cover.png" alt="cover">
+            <div class="heading">
+                <h1 class="title">FarCry 4</h1>
+                <h3 class="subtitle">First Released Nov 17, 2014</h3>
+            </div>
+            <p class="description">In Far Cry 4, players find themselves in Kyrat, a breathtaking, perilous and wild region of the Hima layas struggling
+                under the regime of a despotic self-appointed king.</p>
+            <img class="score__img" src="img/score.png" alt="score">
+            <div class="stars">
+                <img src="img/stars-static.png" alt="">
+            </div>
+            <div class="price">
+                <span class="price__discount">20% OFF!</span>
+                <span class="price__total">$59.96</span>
+            </div>
+            <button class="button">BUY IT NOW</button>
+        </div>
+        <div class="ratings__window window hidden">
+            <h1>RATINGS INFO is not avalible now...</h1>
+        </div>
+        <div class="buy__window window hidden">
+            <h1>WHERE TO BUY is not avalible now...</h1>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
